@@ -69,12 +69,12 @@
         transition: 1s;
         
     }
-    label:hover > .body {
+    label:hover > h2 .body {
         height: auto;
         transition: 1.5s;
         opacity: 1;
     }
-    label:hover > .line > .item >.icon { 
+    label:hover > h2 >.line > .item >.icon { 
         transition: 0.5s;
         transform: rotate(90deg);
     }
