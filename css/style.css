@@ -51,6 +51,7 @@ label {
     font-size: 0.8rem;
     transition: 0.5s;
     color: black;
+    font-weight: 700;
 
 }
 .icon {
@@ -71,12 +72,12 @@ label {
     padding-top: 0.5rem;
     transition: 2.5s;
 }
-input:checked + label > .body {
+input:checked + label > h2 .body {
     height: auto;
     transition: 1s;
     opacity: 1;
 }
-input:checked + label > .line {
+input:checked + label > h2 .line {
     color: black;
 }
 input:checked + label > .line > .item >.icon {
