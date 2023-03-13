@@ -50,7 +50,7 @@ label {
     align-items: center;
     font-size: 0.8rem;
     transition: 0.5s;
-    color: black;
+    color: #5D9B9B;
     font-weight: 700;
 
 }
@@ -80,7 +80,7 @@ input:checked + label > h2 .body {
     opacity: 1;
 }
 input:checked + label > h2 .line {
-    color: #5D9B9B;
+    color: black;
 }
 input:checked + label > h2 > .line > .item >.icon {
     transition: 0.5s;
