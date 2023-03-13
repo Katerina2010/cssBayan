@@ -40,7 +40,7 @@ label {
     padding: 0.4rem 0;
     width: 100%;
     color: black;
-    transition: 2s;
+    transition: 1s;
     margin-bottom: 0.5rem;
 }
 .line {
@@ -72,7 +72,7 @@ label {
     width: 100%;
     margin: 0 auto;
     padding-top: 0.5rem;
-    transition: 2.5s;
+    transition: 1s;
 }
 input:checked + label > .body {
     height: auto;
