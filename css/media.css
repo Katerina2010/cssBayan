@@ -3,19 +3,25 @@
         min-width: 25rem;
         height: 100%;
     }
+    .title {
+        width: 60%;
+    }
     h1 {
-        font-size: 2.563rem;
-        padding-top: 4rem;
-        padding-bottom: 2rem;
+        font-size: 1.6rem;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .bayan-container {
+        width: 60%;
     }
     label .line {
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
     label .line img {
     width: 2rem;
     }
     .bayan-container label {
-        padding: 0.5rem 0 0.5rem 0;
+        padding: 0.3rem 0 0.3rem 0;
     }
 }
 
@@ -25,18 +31,18 @@
         height: 100%;
     }
     .title {
-        width: 60%;
+        width: 50%;
     }
     h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
     }
     .bayan-container {
-        width: 60%;
+        width: 50%;
     }
     label .line {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         color: #5D9B9B;
     }
     label .line img {
@@ -45,18 +51,20 @@
     }
     .string:checked + label + .body {
         height: auto;
-        transition: 1.5s;
+        transition: 2.5s;
         opacity: 1;
     }
     input:checked + label .line {
     color: #000;
     }
     .bayan-container label {
-        padding: 0.2rem 0rem 0.2rem 0rem;
+        padding: 0.1rem 0rem 0.1rem 0rem;
     }
     .body img {
-        padding-bottom: 1.5rem;
-        padding-top: 1.5rem;
+        padding-bottom: 0.2rem;
+        padding-top: 0.2rem;
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
@@ -66,12 +74,11 @@
       }
     .bayan-container:hover .line img {
         opacity: 1;
-        transition: 1s;
-        
+        transition: all 1s;
     }
     label:hover > h2 .body {
         height: auto;
-        transition: 1.5s;
+        transition: all 3s;
         opacity: 1;
     }
     label:hover > h2 >.line > .item >.icon { 
