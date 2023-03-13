@@ -75,12 +75,12 @@
         opacity: 1;
         transition: all 1s;
     }
-    label:hover > h2 .body {
+    label:hover > .body {
         height: auto;
         transition: all 3s;
         opacity: 1;
     }
-    label:hover > h2 >.line > .item >.icon { 
+    label:hover > .line > .item > .icon { 
         transition: 0.5s;
         transform: rotate(90deg);
     }

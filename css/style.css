@@ -74,15 +74,15 @@ label {
     padding-top: 0.5rem;
     transition: 2.5s;
 }
-input:checked + label > h2 .body {
+input:checked + label > .body {
     height: auto;
     transition: 1s;
     opacity: 1;
 }
-input:checked + label > h2 .line {
+input:checked + label > .line {
     color: black;
 }
-input:checked + label > h2 > .line > .item >.icon {
+input:checked + label > .line > .item >.icon {
     transition: 0.5s;
     transform: rotate(90deg);
 }
