@@ -80,7 +80,7 @@ input:checked + label > h2 .body {
     opacity: 1;
 }
 input:checked + label > h2 .line {
-    color: black;
+    color: #5D9B9B;
 }
 input:checked + label > h2 > .line > .item >.icon {
     transition: 0.5s;
